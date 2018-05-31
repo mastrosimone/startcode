@@ -1,0 +1,437 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+h1 {
+	color: #ff9e00;
+    font-size: 46px;
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+	color: #333;
+    font-size: 22px;
+    text-align: center;
+}
+h3 {
+	color: ##8c8c8c;
+    font-size: 24px;
+    font-style:  italic;
+}
+.dropdownmenu{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.dropdownmenu ul, .dropdownmenu li
+{
+	margin: 0;
+	padding: 0;
+}
+.dropdownmenu ul
+{
+	background: gray;
+	list-style: none;
+	width: 100%;
+}
+.dropdownmenu li
+{
+	float: left;
+	position: relative;
+	width: auto;
+}
+.dropdownmenu a
+{
+	color: #fff;
+	display: block;
+	font: bold 12px/20px sans-serif;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all .25 ease;
+	-moz-transition: all .25 ease;
+	-ms-transition: all .25 ease;
+	-o-transition: all .25 ease;
+	transition: all .25 ease;
+}
+.dropdownmenu li:hover a
+{
+	background: #ff9e00;
+}
+#submenu
+{
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 35px;
+	visibility: hidden;
+	z-index: 1	;
+}
+li:hover ul#submenu
+{
+	opacity: 1;
+	top: 40px;
+	visibility: visible;
+}
+#submenu li
+{
+	float: none;
+	width: 100%;
+}
+#submenu a:hover
+{
+	background: #ff9e00;
+}
+#submenu a
+{
+	background: #000;
+}
+
+div.body
+{
+
+}
+div.left
+{
+	width:20%; 
+	float: left;
+	height: 800px;
+	background-color: #eaeaea;
+}
+div.center
+{
+	width: 60%;
+	float: left;
+	min-height: 500px;
+	background-color: #fff;
+}
+div.right
+{
+	width: 20%;
+	float: left;
+	height: 800px;
+	background-color: #eaeaea;
+}
+div.down
+{
+	min-height: 150px;
+	width: 100%;
+	background-color: #eaeaea;
+	border-top: solid 3px #ff9e00;
+	float: left;
+}
+div.menu
+{
+	height: 40px;
+    background-color: #1b1b1b;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+a.top_link
+{
+	margin: 10px;
+	opacity: 1;
+	color: #fff;
+
+}
+a.top_link:hover
+{
+	opacity: 1;
+	color: #ff9e00;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: 0.5s;
+
+}
+div.top
+{
+	min-height: 50px;
+	border-bottom: solid 1px #ff9e00;
+	width: 100%;
+	
+}
+div.utop
+{
+	background: 
+    linear-gradient(#ff9e0038,rgb(0, 0, 0)), url(../image/hexagon.jpg);
+	background-color: #333;
+	height: 300px;
+	position: relative;
+	border-bottom: solid 3px #ff9e00;
+	background-size: 100%;
+    background-position: center center;
+}
+div.top1
+{
+	width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    min-height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 16px;
+    float: left;
+}
+div.top2
+{
+	width: 50%;
+	float: left;
+	min-height: 200px;
+}
+div.top3
+{
+	width: 50%;
+	float: left;
+	min-height: 200px;
+	text-align: right;	
+}
+div.utop_left
+{
+	height: 50px;
+	width: 50%;
+	float: left;
+	background-color: #f00;
+	border-radius: 15px 0px 0px 0px;
+}
+div.utop_right
+{
+	height: 50px;
+	width: 50%;
+	float: left;
+	text-align: right;
+	background-color: #f00;
+	border-radius: 0px 15px 0px 0px;
+}
+div.colonne
+{
+	width: 100%;
+}
+img.logo
+{
+	width: 200px;
+	margin-top: 80px;
+	margin-left: 35px;
+}
+img.logo_footer
+{
+	height: 150px;
+	margin-left: auto;
+}
+img.icon
+{
+	height: 35px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+img.icon:hover
+{
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+img.icon_footer
+{
+	height: 45px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+img.icon_footer:hover
+{
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+img.image_in_text
+{ 	float: left;
+	padding: 5px 15px 15px 0px;
+}
+a
+{
+	text-decoration: none;
+}
+li {
+	list-style: none;
+	text-underline-position: 
+}
+a.sidemenu {	
+	color: #333;
+	font-size: 18px;
+	border-left: solid 3px #ff9e00;
+	padding-left: 10px;
+}
+a.sidemenu:hover {
+	background-color: #ff9e00;
+	color: #fff;
+	transition: 0.3s; 
+	padding-left: 30px;
+}
+ul.sidemenu
+{
+
+}
+ul.footermenu a
+{
+	color: #333;
+	font-size: 20px;
+	padding: 2px;
+	transition: 0.3s;
+}
+ul.footermenu a:hover
+{
+	color: #ff9e00;
+	border-left: solid 1px #ff9e00;
+	padding-left: 15px;
+	font-size: 20px;
+}
+a.footermenu:hover
+{
+	color: #f00;
+}
+img.banner_left
+{
+	width: 100%;
+}
+img.banner_right
+{
+	width: 100%;
+	margin-bottom: 15px;
+}
+div.footer1
+{
+	width: 33%;
+	height: 200px;
+	float: left;
+}
+div.footer2
+{
+	width: 33%;
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+div.footer3
+{
+	width: 33%;
+	height: 200px;
+	float: left;
+	color: #fff;
+	text-align: right;
+}
+div.icon_footer
+{
+	height: 200px;
+	margin-top: 100px;
+}
+div.testo
+{
+	margin: 25px;
+}
+div.corpotesto
+{
+	margin: 25px;
+}
+div.menu_hamburger {
+    visibility: none;
+}
+div.copyright {
+   float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #eaeaea;
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 25px;
+    border-top: solid 1px #ff9e00;
+}
+table.comp
+{
+	border: solid 1px #333;
+	text-align: center;
+	width: 100%;
+	height: 300px;
+}
+
+@media only screen and (max-width: 1000px){
+
+body {
+        
+    }
+.dropdownmenu{
+    visibility: hidden;
+}
+div.corpotesto {
+    margin: 0px;
+}
+div.icon_footer {
+    text-align: center;
+}
+div.menu_hamburger {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 10px 6px 10px;
+}
+div.left
+{
+	float: none;
+	width: 100%;
+	height: 100%;
+}
+div.center
+{
+	float: none;
+	width: 100%;
+}
+div.right
+{
+	float: none;
+	width: 100%;
+	background-color: #fff;
+	height: 100%;
+}
+div.footer1
+{
+	float: none;
+    width: 100%;
+}
+div.footer2
+{
+	float: none;
+	width: 100%;
+	height: 100px;
+}
+div.footer3
+{
+	float: none;
+	width: 100%;
+	height: 100px;
+}
+div.top1
+{
+	float: none;
+	width: 100%;
+	min-height: 0px;
+}
+div.top2
+{
+	float: none;
+	width: 100%;
+	min-height: 0px;
+	text-align: center;
+	height: 5px;
+}
+div.top3
+{
+	float: none;
+	width: 100%;
+	min-height: 0px;
+	text-align: center;
+}
+img.logo {
+    margin-top: 110px;
+    margin-left: 0px;
+}
+}
